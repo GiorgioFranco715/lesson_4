@@ -47,4 +47,31 @@ if __name__ == "__main__":
 
     #print(users[2]["name"],users[2]["age"])
 
-    temp_age = 
+
+    # одиницівиміру = input("Введіть одиницю виміру температури:")
+    # users_data_цельсії = int(input("Введіть температуру на вулиці:"))
+    # if одиницівиміру = ("Цельсії"):
+    #     users_data_цельсії * 9/5 + 32=users_data_фаренгейти
+    #
+    # цельсії_в_фаренгейти = (0 °C × 9/5) + 32 = 32 °F
+    #
+    # if users_data > 0:
+    #     print("Вдягнись легко")
+    # elif users_data == 0:
+    #     print("Вдягнись як хочеш")
+    # else:
+    #     print("Вдягнись тепло")
+
+        print("___START PROGRAM___ \n\n")
+        system_metrics = input(f"Please choise system metrics:\n"
+                               f"c - Celsius\n"
+                               f"f - Farengeit\n" 
+                               f"k - Kalvin\n")
+                               f"Please choise: ")
+        temperature_value = int(input(f"Please input temperature value:  "))
+
+        # conditional temp
+        if system_metrics.lower() == "c":
+            print
+
+
